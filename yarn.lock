@@ -7569,10 +7569,10 @@ tinygradient@^1.1.5:
     "@types/tinycolor2" "^1.4.0"
     tinycolor2 "^1.0.0"
 
-tinyspy@^0.3.0:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/tinyspy/-/tinyspy-0.3.3.tgz#8b57f8aec7fe1bf583a3a49cb9ab30c742f69237"
-  integrity sha512-gRiUR8fuhUf0W9lzojPf1N1euJYA30ISebSfgca8z76FOvXtVXqd5ojEIaKLWbDQhAaC3ibxZIjqbyi4ybjcTw==
+tinyspy@^1.0.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/tinyspy/-/tinyspy-1.1.1.tgz#0cb91d5157892af38cb2d217f5c7e8507a5bf092"
+  integrity sha512-UVq5AXt/gQlti7oxoIg5oi/9r0WpF7DGEVwXgqWSMmyN16+e3tl5lIvTaOpJ3TAtu5xFzWccFRM4R5NaWHF+4g==
 
 to-regex-range@^5.0.1:
   version "5.0.1"
@@ -7882,13 +7882,13 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
-vi-fetch@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/vi-fetch/-/vi-fetch-0.6.1.tgz#1ac7bd774256e7b3744177e80444b96a8b4090b8"
-  integrity sha512-NlO/xVHil9Emz3Nc5PwQXlugt09tAn601AW+E0DZLA5z+Tu7s9b1eGF9iFtn3sNMYxq18dYGZADS2YMIOYolBQ==
+vi-fetch@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/vi-fetch/-/vi-fetch-0.8.0.tgz#45170a3d9e2ecb2a775b128356f8faae671b5a66"
+  integrity sha512-uvEgEBTacSnlxRcoA56Drwkc2LbTvRNOdSx5MVayBfEsHAgQJAu+LwePlUOkidFsqQMcQxcb+LlC9qZ9v1yXiw==
   dependencies:
     query-string "^7.1.1"
-    tinyspy "^0.3.0"
+    tinyspy "^1.0.0"
 
 vite-plugin-shopify@^2.1.1:
   version "2.2.1"
