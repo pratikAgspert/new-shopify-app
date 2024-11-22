@@ -3,7 +3,7 @@
 client_id = "2b380cfcd67fb85eda612cc32ab329ed"
 name = "old-3d-temp"
 handle = "old-3d-temp"
-application_url = "https://reactions-equality-latin-seek.trycloudflare.com"
+application_url = "https://magical-alcohol-letters-amy.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_online_store_pages,read_products,read_themes,write_products,write
 
 [auth]
 redirect_urls = [
-  "https://reactions-equality-latin-seek.trycloudflare.com/auth/callback",
-  "https://reactions-equality-latin-seek.trycloudflare.com/auth/shopify/callback",
-  "https://reactions-equality-latin-seek.trycloudflare.com/api/auth/callback"
+  "https://magical-alcohol-letters-amy.trycloudflare.com/auth/callback",
+  "https://magical-alcohol-letters-amy.trycloudflare.com/auth/shopify/callback",
+  "https://magical-alcohol-letters-amy.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
