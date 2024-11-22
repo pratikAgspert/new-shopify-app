@@ -1,26 +1,16 @@
-import CubeWithLineTexture from "./CubeWithLineTexture";
+import { QueryClient } from "react-query";
+import Story from "./Story";
+import { QueryClientProvider } from "@tanstack/react-query";
 
 export default function App({ home }) {
   console.log("Home", home);
+  const queryClient = new QueryClient();
 
   return (
-    // <div className="tw-text-5xl tw-text-red-600 tw-border tw-border-red-500 tw-flex tw-gap-5">
-    //   Test Three js
-    //   <div className="tw-text-5xl tw-text-red-600 tw-border tw-border-red-500 tw-flex tw-gap-5">
-    //     Hello
-    //   </div>
-    //   <div className="tw-w-10 tw-text-5xl tw-text-red-600 tw-border tw-border-green-500 tw-flex tw-gap-5">
-    //     <CubeWithLineTexture />
-    //   </div>
-    // </div>
-    <div className="tw-flex tw-justify-center tw-items-center tw-h-screen">
-      Test Three js
-      {/* <div className="tw-w-64 tw-h-64">
-        <CubeWithLineTexture />
-      </div> */}
-      <div style={{ width: "50vw", height: "50vh" }}>
-        <CubeWithLineTexture />
+    <QueryClientProvider client={queryClient}>
+      <div className="tw-flex tw-flex-col tw-justify-center tw-items-center tw-h-screen">
+        <Story />
       </div>
-    </div>
+    </QueryClientProvider>
   );
 }

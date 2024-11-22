@@ -1,0 +1,78 @@
+.clean-quill-content {
+  /* Reset all inherited Quill styles */
+  all: initial;
+  font-family: inherit;
+
+  /* Heading styles */
+  & h1 {
+    font-size: 2em;
+    margin: 0em 0;
+  }
+
+  & h2 {
+    font-size: 1.5em;
+    margin: 0em 0;
+  }
+
+  & h3 {
+    font-size: 1.17em;
+    margin: 0em 0;
+  }
+
+  & h4 {
+    font-size: 1em;
+    margin: 0em 0;
+  }
+
+  & h5 {
+    font-size: 0.83em;
+    margin: 0em 0;
+  }
+
+  & h6 {
+    font-size: 0.67em;
+    margin: 0em 0;
+  }
+
+  /* Preserve basic text formatting */
+  & strong {
+    font-weight: bold;
+  }
+
+  & em {
+    font-style: italic;
+  }
+
+  & u {
+    text-decoration: underline;
+  }
+
+  & s {
+    text-decoration: line-through;
+  }
+
+  & blockquote {
+    border-left: 3px solid #ccc;
+    margin-left: 0;
+    padding-left: 1em;
+  }
+
+  & ul,
+  & ol {
+    padding-left: 1.5em;
+    margin: 0em 0;
+  }
+
+  & p {
+    margin: 0em 0;
+  }
+
+  /* Remove any Quill-specific classes and styling */
+  & .ql-editor {
+    all: unset;
+  }
+
+  & [class*='ql-'] {
+    all: unset;
+  }
+}

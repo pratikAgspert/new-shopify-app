@@ -1,0 +1,31 @@
+/* width */
+::-webkit-scrollbar {
+  width: px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: "transparent";
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: "transparent";
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: "transparent";
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* color: grey; */
+}
